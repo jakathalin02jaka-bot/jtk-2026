@@ -4,6 +4,7 @@ const nextConfig = {
   poweredByHeader: false,
   output: 'export',
   distDir: 'dist',
+  trailingSlash: true,
   basePath: '/jtk-2026',
   assetPrefix: '/jtk-2026',
   compiler: {
