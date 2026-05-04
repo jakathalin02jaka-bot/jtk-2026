@@ -4,6 +4,8 @@ const nextConfig = {
   poweredByHeader: false,
   output: 'export',
   distDir: 'dist',
+  basePath: '/jtk-2026',
+  assetPrefix: '/jtk-2026',
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production' ? { exclude: ['error'] } : false,
   },
