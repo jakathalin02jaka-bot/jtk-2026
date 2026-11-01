@@ -1,6 +1,6 @@
 import type { Booking } from './types'
 
-export const ADMIN_WA = '081295991378'
+export const ADMIN_WA = '081932691643'
 
 function formatRupiah(amount: number): string {
   return new Intl.NumberFormat('id-ID', {
